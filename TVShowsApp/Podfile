@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TVShowsApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TVShowsApp
+
+  pod 'Cosmos'
+  
+  target 'TVShowsAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TVShowsAppUITests' do
+    # Pods for testing
+  end
+
+end
