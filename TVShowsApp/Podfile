@@ -8,6 +8,7 @@ target 'TVShowsApp' do
   # Pods for TVShowsApp
 
   pod 'Cosmos'
+  pod 'SDWebImage'
   
   target 'TVShowsAppTests' do
     inherit! :search_paths
